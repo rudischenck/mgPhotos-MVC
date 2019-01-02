@@ -1,0 +1,136 @@
+/* font-family: 'Euphoria Script', cursive;
+font-family: 'Cormorant Infant', serif;
+font-family: 'Montserrat', sans-serif; */
+
+
+/************************** 
+BASIC STYLES 
+***************************/
+body {
+    background-color: #fff0f2;
+}
+
+.footer {
+    background-color: #ffa4b0;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 1.5rem;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    color: white;
+}
+
+a {
+    color: white;
+}
+
+.rose {
+    background-color: #fff0f2;
+}
+
+/************************** 
+FONTS 
+***************************/
+.navbar {
+    font-family: 'Cormorant Infant', serif;
+    color: #888;
+    font-size: 1.2rem;
+}
+
+.portfolio-links,
+.cta-1 {
+    font-family: 'Euphoria Script', cursive;
+    font-size: 1.4rem;
+    color: #000000
+}
+
+.portfolio-links {
+    font-size: 1.8rem;
+    color: white;
+
+}
+
+.cta-1 {
+    font-size: 1.6rem;
+}
+
+.cta-2 {
+    font-family: 'Cormorant Infant', serif;
+    font-size: 1.2rem;
+}
+
+.cta-3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+}
+
+.words {
+    font-family: 'Euphoria Script', cursive;
+    font-size: 1.6rem;
+    color: #555555;
+}
+
+.header {
+    font-family: 'Cormorant Infant', serif;
+    color: #fff;
+    background-color: #ffa4b0;
+    text-shadow: #000;
+    letter-spacing: .15em;
+    font-size:3.0rem;
+}
+
+.verse {
+    font-family: 'Euphoria Script', cursive;
+    color: #444444;
+    font-size: 1.4rem;
+}
+
+
+/***************************  
+CARD POSITIONS
+****************************/
+
+/* .positionplaceholder {
+    position: relative;
+}
+
+.bot-left {
+    position: fixed;
+}
+
+.top-mid {
+    bottom: auto;
+}
+.bot-right {
+    right: 3rem;
+    top: 3rem;
+} */
+
+/***************************  
+MEDIA QUERIES
+****************************/
+
+@media (min-width: 768px) {
+    .carouselhide, 
+    .words {
+        display: none;
+    }
+}
+
+@media (max-width: 767px) {
+    .placeholderhide {
+        display: none;
+    }
+    
+}
+
+@media (max-width: 575px) {
+    .navbar-brand {
+        height: auto;
+        max-width: 65%;
+    }
+}
